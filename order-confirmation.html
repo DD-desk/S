@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include if you have a CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 40px;
+        }
+        .confirmation-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        .confirmation-container img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        .confirmation-container h2 {
+            color: #2db742;
+            margin-bottom: 10px;
+        }
+        .order-summary {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .order-summary p {
+            margin: 5px 0;
+        }
+        .btn-container {
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+        }
+        .btn-secondary {
+            background-color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="confirmation-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/390/390973.png" alt="Success">
+        <h2>Order Placed Successfully!</h2>
+        <p>Thank you for your purchase. Your order has been placed successfully.</p>
+
+        <div class="order-summary">
+            <h4>Order Summary</h4>
+            <p><strong>Order ID:</strong> #123456789</p>
+            <p><strong>Total Amount:</strong> Rs. 2,999.00</p>
+            <p><strong>Payment Mode:</strong> Cash on Delivery</p>
+            <p><strong>Estimated Delivery:</strong> 3-5 Business Days</p>
+        </div>
+
+        <div class="btn-container">
+            <a href="index.html" class="btn btn-primary">Continue Shopping</a>
+            <a href="my-orders.html" class="btn btn-secondary">View Orders</a>
+        </div>
+    </div>
+
+</body>
+</html>
